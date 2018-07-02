@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionPrettyCell" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="189"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="189"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdg-cx-Uh4">
+                        <rect key="frame" x="0.0" y="164" width="162" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="J0r-tZ-aZT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="重庆市" image="ico_location">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小兔子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBC-3M-vRd">
+                        <rect key="frame" x="5" y="144" width="37" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="R2U-QR-KNH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_cell_default_phone" translatesAutoresizingMaskIntoConstraints="NO" id="Ewo-eg-WZw">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="139"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yx-GX-CUX">
+                        <rect key="frame" x="111" y="5" width="46" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tdg-cx-Uh4" firstAttribute="top" secondItem="wBC-3M-vRd" secondAttribute="bottom" constant="5" id="3Zc-Ko-Bfj"/>
+                <constraint firstAttribute="trailing" secondItem="Ewo-eg-WZw" secondAttribute="trailing" id="Evk-V3-INs"/>
+                <constraint firstAttribute="trailing" secondItem="tdg-cx-Uh4" secondAttribute="trailing" constant="5" id="Gm4-Bt-eHE"/>
+                <constraint firstItem="tdg-cx-Uh4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MLr-rz-uge"/>
+                <constraint firstItem="wBC-3M-vRd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="NUO-xu-IhR"/>
+                <constraint firstItem="wBC-3M-vRd" firstAttribute="top" secondItem="Ewo-eg-WZw" secondAttribute="bottom" constant="5" id="aCg-hk-olp"/>
+                <constraint firstAttribute="bottom" secondItem="tdg-cx-Uh4" secondAttribute="bottom" constant="10" id="br8-aI-WyD"/>
+                <constraint firstItem="Ewo-eg-WZw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cAJ-mX-Zu9"/>
+                <constraint firstAttribute="trailing" secondItem="4yx-GX-CUX" secondAttribute="trailing" constant="10" id="egN-kD-nJ4"/>
+                <constraint firstItem="4yx-GX-CUX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ndv-D6-9cV"/>
+                <constraint firstItem="Ewo-eg-WZw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vd8-Dq-bO8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="167" height="189"/>
+            <point key="canvasLocation" x="-48" y="-21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ico_location" width="12" height="12"/>
+        <image name="live_cell_default_phone" width="103" height="103"/>
+    </resources>
+</document>
