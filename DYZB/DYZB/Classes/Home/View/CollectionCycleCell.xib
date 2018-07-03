@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionCycleCell" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="162"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-cd-Uae">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="162"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pE3-ZY-0ns">
+                        <rect key="frame" x="0.0" y="132" width="329" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天王降地虎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWj-by-f8h">
+                                <rect key="frame" x="15" y="7.5" width="62" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="A4n-29-vdq"/>
+                            <constraint firstItem="MWj-by-f8h" firstAttribute="leading" secondItem="pE3-ZY-0ns" secondAttribute="leading" constant="15" id="GC2-z9-s3f"/>
+                            <constraint firstItem="MWj-by-f8h" firstAttribute="centerY" secondItem="pE3-ZY-0ns" secondAttribute="centerY" id="Mda-2l-dWB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pE3-ZY-0ns" secondAttribute="bottom" id="8hF-pn-ij0"/>
+                <constraint firstAttribute="bottom" secondItem="6rb-cd-Uae" secondAttribute="bottom" id="9Hp-Xa-Lpm"/>
+                <constraint firstItem="6rb-cd-Uae" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PA0-fM-jtK"/>
+                <constraint firstAttribute="trailing" secondItem="6rb-cd-Uae" secondAttribute="trailing" id="Rhb-QP-dX2"/>
+                <constraint firstAttribute="trailing" secondItem="pE3-ZY-0ns" secondAttribute="trailing" id="bkZ-LZ-X86"/>
+                <constraint firstItem="pE3-ZY-0ns" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mxI-M4-0gP"/>
+                <constraint firstItem="6rb-cd-Uae" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zmw-Fc-k6H"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="329" height="162"/>
+            <connections>
+                <outlet property="iconImageView" destination="6rb-cd-Uae" id="MVB-Kv-QGk"/>
+                <outlet property="titleLabel" destination="MWj-by-f8h" id="AK6-IT-JoU"/>
+            </connections>
+            <point key="canvasLocation" x="-36.5" y="110"/>
+        </collectionViewCell>
+    </objects>
+</document>

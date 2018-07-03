@@ -29,8 +29,14 @@
 		9F0E76C020E8C49700DE3FF5 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E76BF20E8C49700DE3FF5 /* RecommendViewModel.swift */; };
 		9F0E76C220E8D38B00DE3FF5 /* NSDate_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E76C120E8D38B00DE3FF5 /* NSDate_extension.swift */; };
 		9F0E76C420E8E49900DE3FF5 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E76C320E8E49900DE3FF5 /* AnchorGroup.swift */; };
+		9F1913DC20EB08D80004E9AE /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1913DB20EB08D80004E9AE /* CollectionBaseCell.swift */; };
+		9F1913DE20EB21C40004E9AE /* RecommentCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1913DD20EB21C40004E9AE /* RecommentCycleView.swift */; };
+		9F1913E020EB22310004E9AE /* RecommentCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1913DF20EB22310004E9AE /* RecommentCycleView.xib */; };
+		9F1913E220EBA5DD0004E9AE /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1913E120EBA5DD0004E9AE /* CycleModel.swift */; };
 		9F2CD26620E87AC2000177BA /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CD26520E87AC2000177BA /* NetworkTools.swift */; };
 		9F6D423420E92DBA0002360A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D423320E92DBA0002360A /* AnchorModel.swift */; };
+		9F9264FB20EBBFCC0025031E /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9264F920EBBFCC0025031E /* CollectionCycleCell.swift */; };
+		9F9264FC20EBBFCC0025031E /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9264FA20EBBFCC0025031E /* CollectionCycleCell.xib */; };
 		9FDBAAAD20E3C00F00FBB57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBAAAC20E3C00F00FBB57F /* AppDelegate.swift */; };
 		9FDBAAB220E3C00F00FBB57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBAAB020E3C00F00FBB57F /* Main.storyboard */; };
 		9FDBAAB420E3C01100FBB57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBAAB320E3C01100FBB57F /* Assets.xcassets */; };
@@ -60,8 +66,14 @@
 		9F0E76BF20E8C49700DE3FF5 /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		9F0E76C120E8D38B00DE3FF5 /* NSDate_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDate_extension.swift; sourceTree = "<group>"; };
 		9F0E76C320E8E49900DE3FF5 /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		9F1913DB20EB08D80004E9AE /* CollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
+		9F1913DD20EB21C40004E9AE /* RecommentCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommentCycleView.swift; sourceTree = "<group>"; };
+		9F1913DF20EB22310004E9AE /* RecommentCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommentCycleView.xib; sourceTree = "<group>"; };
+		9F1913E120EBA5DD0004E9AE /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
 		9F2CD26520E87AC2000177BA /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		9F6D423320E92DBA0002360A /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		9F9264F920EBBFCC0025031E /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		9F9264FA20EBBFCC0025031E /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
 		9FDBAAA920E3C00F00FBB57F /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDBAAAC20E3C00F00FBB57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FDBAAB120E3C00F00FBB57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,6 +116,7 @@
 		9F0E735D20E4B91000207595 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F1913E120EBA5DD0004E9AE /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +126,10 @@
 			children = (
 				9F03DE8220E7B51600EC6F79 /* CollectionHeaderView.swift */,
 				9F03DE8320E7B51600EC6F79 /* CollectionHeaderView.xib */,
+				9F1913DD20EB21C40004E9AE /* RecommentCycleView.swift */,
+				9F1913DF20EB22310004E9AE /* RecommentCycleView.xib */,
+				9F9264F920EBBFCC0025031E /* CollectionCycleCell.swift */,
+				9F9264FA20EBBFCC0025031E /* CollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +171,7 @@
 				9F03DE8720E7C6AD00EC6F79 /* CollectionNormalCell.xib */,
 				9F03DE8A20E7E9B500EC6F79 /* CollectionPrettyCell.swift */,
 				9F03DE8B20E7E9B500EC6F79 /* CollectionPrettyCell.xib */,
+				9F1913DB20EB08D80004E9AE /* CollectionBaseCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,12 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDBAAB720E3C01100FBB57F /* LaunchScreen.storyboard in Resources */,
+				9F1913E020EB22310004E9AE /* RecommentCycleView.xib in Resources */,
 				9F03DE8520E7B51600EC6F79 /* CollectionHeaderView.xib in Resources */,
 				9F03DE8920E7C6AD00EC6F79 /* CollectionNormalCell.xib in Resources */,
 				9FDBAAB420E3C01100FBB57F /* Assets.xcassets in Resources */,
 				9FDBAAB220E3C00F00FBB57F /* Main.storyboard in Resources */,
 				9F0E735120E4885300207595 /* Live.storyboard in Resources */,
 				9F0E734E20E4828E00207595 /* Home.storyboard in Resources */,
+				9F9264FC20EBBFCC0025031E /* CollectionCycleCell.xib in Resources */,
 				9F03DE8D20E7E9B500EC6F79 /* CollectionPrettyCell.xib in Resources */,
 				9F0E735A20E4892B00207595 /* Profile.storyboard in Resources */,
 				9F0E735720E4890A00207595 /* Follow.storyboard in Resources */,
@@ -358,10 +378,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -401,10 +423,14 @@
 				9F0E737120E5359100207595 /* UIColor_Extension.swift in Sources */,
 				9F0E736F20E5284B00207595 /* PageContentView.swift in Sources */,
 				9F0E736420E4B9AD00207595 /* MainViewController.swift in Sources */,
+				9F9264FB20EBBFCC0025031E /* CollectionCycleCell.swift in Sources */,
+				9F1913E220EBA5DD0004E9AE /* CycleModel.swift in Sources */,
 				9F0E736D20E4FE3800207595 /* Common.swift in Sources */,
 				9F03DE8120E7946300EC6F79 /* RecommandViewController.swift in Sources */,
+				9F1913DE20EB21C40004E9AE /* RecommentCycleView.swift in Sources */,
 				9F03DE8C20E7E9B500EC6F79 /* CollectionPrettyCell.swift in Sources */,
 				9F03DE8820E7C6AD00EC6F79 /* CollectionNormalCell.swift in Sources */,
+				9F1913DC20EB08D80004E9AE /* CollectionBaseCell.swift in Sources */,
 				9F2CD26620E87AC2000177BA /* NetworkTools.swift in Sources */,
 				9F0E76C220E8D38B00DE3FF5 /* NSDate_extension.swift in Sources */,
 				9F0E736620E4BA2500207595 /* HomeViewController.swift in Sources */,

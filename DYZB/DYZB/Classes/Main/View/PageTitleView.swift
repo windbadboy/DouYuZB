@@ -122,6 +122,8 @@ extension PageTitleView {
         //获取当前选中titleLabel，将view(UIView)类型转换为UILabel
         guard let currentLabel = tapGes.view as? UILabel else {return}
         
+        //判断是否点击同一个label
+        if currentLabel.tag == currentIndex {return}
         //获取上一个TitleLabel
         let oldLabel = titleLabels[currentIndex]
         

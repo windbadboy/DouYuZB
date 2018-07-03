@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Kingfisher
+class CollectionNormalCell: CollectionBaseCell {
 
-class CollectionNormalCell: UICollectionViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var roomLabel: UILabel!
+    override var anchor : AnchorModel? {
+        didSet {
+            //将属性传递给父类
+            super.anchor = anchor
+            //设置在线人数
+            //guard let anchor = anchor else {return}
+
+            
+            //设置房间名
+            roomLabel.text = anchor?.room_name
+        }
     }
 
 }
